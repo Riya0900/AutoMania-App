@@ -1,33 +1,23 @@
 import React from "react";
 import useHome2 from "./Home2style";
-
-
 import AirportShuttleIcon from "@mui/icons-material/AirportShuttle";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import VpnLockIcon from "@mui/icons-material/VpnLock";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
-
-import {
-  Container,
-  Paper,
-  Typography,
-  Button,
-  Grid,
-  Box
-} from '@mui/material';
+import { Container, Paper, Typography, Button, Grid, Box } from "@mui/material";
 
 export default function Home2() {
   const classes = useHome2();
   return (
     <>
-      <Container  className={classes.home}>
-
-        <Grid container spacing={3} >
-          <Grid item lg={4} >
-            <Paper className={classes.snb}
-
+      <Container className={classes.home}>
+        <Grid container spacing={3}>
+          <Grid item lg={4}>
+            <Paper
+              className={classes.snb}
               style={{
-                backgroundImage: "url(https://themebing.com/wp/sayara/wp-content/uploads/2020/05/black-mercedes-benz-sports-car-interior-1104768.jpg)"
+                backgroundImage:
+                  "url(https://themebing.com/wp/sayara/wp-content/uploads/2020/05/black-mercedes-benz-sports-car-interior-1104768.jpg)",
               }}
             >
               <Box p={3} className={classes.ab}>
@@ -38,18 +28,19 @@ export default function Home2() {
                   Interior Parts
                 </Typography>
 
-              <Button variant="contained" className={classes.btn}>
+                <Button variant="contained" className={classes.btn}>
                   Shop Now
                 </Button>
-                </Box>
+              </Box>
             </Paper>
           </Grid>
 
-          <Grid item lg={4} >
-            <Paper className={classes.snb}
-
+          <Grid item lg={4}>
+            <Paper
+              className={classes.snb}
               style={{
-                backgroundImage:'url(https://themebing.com/wp/sayara/wp-content/uploads/2020/05/car-driving-fast-sports-car-18296.jpg)'
+                backgroundImage:
+                  "url(https://themebing.com/wp/sayara/wp-content/uploads/2020/05/car-driving-fast-sports-car-18296.jpg)",
               }}
             >
               <Box p={3} className={classes.ab}>
@@ -60,19 +51,19 @@ export default function Home2() {
                   Wheels Rim
                 </Typography>
 
-
-              <Button  className={classes.btn} variant="contained" >
+                <Button className={classes.btn} variant="contained">
                   Shop Now
                 </Button>
-                </Box>
+              </Box>
             </Paper>
           </Grid>
 
-          <Grid item lg={4} >
-            <Paper className={classes.snb}
-
+          <Grid item lg={4}>
+            <Paper
+              className={classes.snb}
               style={{
-                backgroundImage: "url(https://themebing.com/wp/sayara/wp-content/uploads/2020/05/black-and-white-round-car-air-filter-159293.jpg)"
+                backgroundImage:
+                  "url(https://themebing.com/wp/sayara/wp-content/uploads/2020/05/black-and-white-round-car-air-filter-159293.jpg)",
               }}
             >
               <Box p={3} className={classes.ab}>
@@ -83,10 +74,10 @@ export default function Home2() {
                   Body Parts
                 </Typography>
 
-              <Button variant="contained" className={classes.btn} >
+                <Button variant="contained" className={classes.btn}>
                   Shop Now
                 </Button>
-                </Box>
+              </Box>
             </Paper>
           </Grid>
         </Grid>

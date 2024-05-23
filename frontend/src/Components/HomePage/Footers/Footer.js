@@ -18,7 +18,7 @@ export default function Footer() {
       <Box className={classes.cols} sx={{minWidth : '30%'}}>
 
         <Box className={classes.col}>
-          <img src={carlogo} className={classes.col1pic} />
+          <img src={carlogo} className={classes.col1pic} alt='carlogo'/>
           <p className={classes.col1para}>It is a long fact that a reader content a page when at its . The point of using Lorem Ipsum is that it has</p>
             <IconButton>
               <FacebookIcon className={classes.col1icon} />
@@ -49,14 +49,14 @@ export default function Footer() {
         <Box className={classes.col} sx={{minWidth : '30%'}}>
           <p className={classes.col2head}>Recent Posts</p>
           <Box className={classes.col3}>
-            <img src='https://themebing.com/wp/sayara/wp-content/uploads/2020/06/automotive-car-coupe-dashboard-498694-100x100.jpg' className={classes.col3pic} />
+            <img src='https://themebing.com/wp/sayara/wp-content/uploads/2020/06/automotive-car-coupe-dashboard-498694-100x100.jpg' className={classes.col3pic} alt='carlogo'/>
             <Box className={classes.col3p}>
               <p className={classes.col2list}>Electric cars aren't <br /> pollution-free ; the</p>
               <p className={classes.col3date}>February 20,2020</p>
             </Box>
           </Box>
           <Box className={classes.col3}>
-            <img src='https://themebing.com/wp/sayara/wp-content/uploads/2020/05/parked-white-coupe-during-night-3354648-100x100.jpg' className={classes.col3pic} />
+            <img src='https://themebing.com/wp/sayara/wp-content/uploads/2020/05/parked-white-coupe-during-night-3354648-100x100.jpg' className={classes.col3pic} alt='carlogo'/>
             <Box className={classes.col3p}>
               <p className={classes.col2list}>You can know or not know <br /> how a car runs</p>
               <p className={classes.col3date}>February 19,2020</p>

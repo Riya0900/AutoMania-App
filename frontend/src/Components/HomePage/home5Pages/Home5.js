@@ -58,17 +58,17 @@ function Home5() {
               <div className={classes.column_wrap3}>
                 <div className={classes.element3}>
                   <div className={classes.row}>
-                    {blog1.map((k) => {
+                    {blog1.map((item,id) => {
                       return (
-                        <div className={classes.col_xl_4}>
+                        <div className={classes.col_xl_4} key={id}>
                           <div className={classes.blog_item}>
                             <div className={classes.blog_thumb}>
                               <img
-                                src={k.image}
+                                src={item.image}
                                 className={classes.attachment_sayara}
                                 alt=""
                               />
-                              <span className={classes.date}>{k.date}</span>
+                              <span className={classes.date}>{item.date}</span>
                             </div>
                             <div className={classes.blog_content}>
                               <div className={classes.blog_meta}>
@@ -83,7 +83,7 @@ function Home5() {
                                 </span>
                               </div>
                               <h4 className={classes.bottom_heading}>
-                                {k.heading}
+                                {item.heading}
                               </h4>
                             </div>
                           </div>
